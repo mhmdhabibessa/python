@@ -1,0 +1,97 @@
+Microsoft Windows [Version 10.0.19041.928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack> call py3Env\Scripts\activate
+(py3Env) C:\Users\Lenovo User\Desktop\Axsos\python_stack>deactivet
+'deactivet' is not recognized as an internal or external command,
+operable program or batch file.
+
+(py3Env) C:\Users\Lenovo User\Desktop\Axsos\python_stack>deactivete
+'deactivete' is not recognized as an internal or external command,
+operable program or batch file.
+
+(py3Env) C:\Users\Lenovo User\Desktop\Axsos\python_stack>deactivate
+C:\Users\Lenovo User\Desktop\Axsos\python_stack> cd python
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python>cd python_fundamentals
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals> python hello_world.py
+Hello mohammd essa
+Hellomohammd essa
+Hello 23
+Traceback (most recent call last):
+  File "hello_world.py", line 11, in <module>
+    print( "Hello"+name )       # with a +      -- this one should give us an error!
+TypeError: must be str, not int
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals>python hello_world.py
+Hello mohammd essa
+Hellomohammd essa
+Hello 23
+Hello23
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals>python hello_world.py
+Hello mohammd essa
+Hellomohammd essa
+Hello 23
+Hello23
+i love {} and {}
+Traceback (most recent call last):
+  File "hello_world.py", line 15, in <module>
+    print( "i love {} and {} " ).format(fave_food1,fave_food2) # with .format()
+AttributeError: 'NoneType' object has no attribute 'format'
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals>python hello_world.py
+  File "hello_world.py", line 15
+    print( "i love {} and {} " ).format(fave_food1,fave_food2)) # with .format()
+                                                              ^
+SyntaxError: invalid syntax
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals>python hello_world.py
+  File "hello_world.py", line 15
+    print( "i love {} and {}").format(fave_food1,fave_food2)) # with .format()
+                                                            ^
+SyntaxError: invalid syntax
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals>python hello_world.py
+  File "hello_world.py", line 15
+    print( "i love {} and {}").format(fave_food1,fave_food2))
+                                                            ^
+SyntaxError: invalid syntax
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals>python hello_world.py
+  File "hello_world.py", line 15
+    print("i love {} and {}").format(fave_food1,fave_food2))
+                                                           ^
+SyntaxError: invalid syntax
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals>python hello_world.py
+  File "hello_world.py", line 15
+    print("i love {} and {}").format(fave_food1,fave_food2)) ;
+                                                           ^
+SyntaxError: invalid syntax
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals>python hello_world.py.
+Hello mohammd essa
+Hellomohammd essa
+Hello 23
+Hello23
+i love sushi and pizza
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals>python hello_world.py
+Hello mohammd essa
+Hellomohammd essa
+Hello 23
+Hello23
+i love sushi and pizza
+ i love sushi and pizza
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals>python hello_world.py
+Hello mohammd essa
+Hellomohammd essa
+Hello 23
+Hello23
+i love sushi and pizza
+i love sushi and pizza
+
+C:\Users\Lenovo User\Desktop\Axsos\python_stack\python\python_fundamentals>
